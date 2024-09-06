@@ -26,6 +26,19 @@
 ---
 
 게임을 즐기시고, 최고의 팀이 승리하시길 바랍니다!
+<table>
+  <tr>
+    <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/5663c6ac-3fba-402d-ac08-07534545e91a"></td>
+    <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/0e3830e7-f7b0-4547-8d2a-90d112643b24"></td>
+  </tr>
+  <tr>
+    <td><img width="400" alt="스크린샷 2024-09-06 오후 8 40 28" src="https://github.com/user-attachments/assets/639198c7-bec5-4c71-90fa-8ab8116325f6"></td>
+    <td><img width="400" alt="스크린샷 2024-09-06 오후 8 42 24" src="https://github.com/user-attachments/assets/57945fd8-6738-41f3-bc40-bdee26db6d53"></td>
+  </tr>
+</table>
 
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/0e3830e7-f7b0-4547-8d2a-90d112643b24">
-<img width="350" alt="스크린샷 2024-09-06 오후 8 40 28" src="https://github.com/user-attachments/assets/639198c7-bec5-4c71-90fa-8ab8116325f6">
+
+
+
+
+
