@@ -26,3 +26,6 @@
 ---
 
 게임을 즐기시고, 최고의 팀이 승리하시길 바랍니다!
+
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/0e3830e7-f7b0-4547-8d2a-90d112643b24">
+<img width="350" alt="스크린샷 2024-09-06 오후 8 40 28" src="https://github.com/user-attachments/assets/639198c7-bec5-4c71-90fa-8ab8116325f6">
