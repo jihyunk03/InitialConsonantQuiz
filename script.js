@@ -79,6 +79,7 @@ let timeLeft = limitedTime;
 // HTML 요소
 const consonantsElem = document.getElementById('consonants');
 const showAnswerButton = document.getElementById('show-answer');
+const initScoreButton = document.getElementById('init-score-btn');
 const scoreTeamAElem = document.getElementById('score-team-a');
 const scoreTeamBElem = document.getElementById('score-team-b');
 const scoreButtons = document.querySelectorAll('.score-btn');
@@ -185,6 +186,18 @@ function updateTimerSec() {
 function updateProgress() {
 	progressElem.textContent = `${currentIndex + 1}/${selectedTerms.length}`;
 }
+
+function initScore() {
+	scoreTeamA = 0;
+	scoreTeamAElem.textContent = scoreTeamA;
+	scoreTeamB = 0;
+	scoreTeamBElem.textContent = scoreTeamB;
+}
+
+initScoreButton.addEventListener('click', () => {
+	initScore();
+})
+
 
 // 정답 보기 버튼 클릭 시 정답 표시
 showAnswerButton.addEventListener('click', () => {
