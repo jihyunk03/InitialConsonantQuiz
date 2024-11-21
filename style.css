@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   background: linear-gradient(135deg, #1e1e2f, #3c3c51);
   color: #ffffff;
 }
@@ -36,12 +36,12 @@ body {
   cursor: pointer;
 }
 
-#settings-container input[type="radio"] {
+#settings-container input[type='radio'] {
   margin-right: 5px;
   accent-color: #ffcc00;
 }
 
-#settings-container input[type="number"] {
+#settings-container input[type='number'] {
   padding: 5px;
   margin: 0 10px;
   width: 60px;
@@ -251,4 +251,37 @@ button:hover {
 
 #close-modal {
   margin-top: 20px;
+}
+
+/* 힌트 버튼 추가 */
+#hint-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #ffffff;
+  color: #333333;
+  border-radius: 10px;
+  font-size: 16px;
+  max-width: 80%;
+}
+
+#hint-container::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 30px;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+}
+
+#hint-text {
+  margin: 0;
+}
+
+#pause-button {
+  margin-top: 10px;
 }
