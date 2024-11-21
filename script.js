@@ -1,109 +1,5 @@
 // script.js
 
-// 영화 제목과 초성 목록
-const movies = [
-	{ title: '기생충', consonants: 'ㄱㅅㅊ', hint: '힌트 없다 요놈아' },
-	{ title: '인터스텔라', consonants: 'ㅇㅌㅅㅌㄹ', hint: '힌트 없다 요놈아' },
-	{ title: '어벤져스', consonants: 'ㅇㅂㅈㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '타이타닉', consonants: 'ㅌㅇㅌㄴ', hint: '힌트 없다 요놈아' },
-	{ title: '매드맥스', consonants: 'ㅁㄷㅁㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '왕의 남자', consonants: 'ㅇㅇ ㄴㅈ', hint: '힌트 없다 요놈아' },
-	{ title: '신과 함께', consonants: 'ㅅㄱ ㅎㄲ', hint: '힌트 없다 요놈아' },
-	{ title: '괴물', consonants: 'ㄱㅁ', hint: '힌트 없다 요놈아' },
-	{ title: '암살', consonants: 'ㅇㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '명량', consonants: 'ㅁㄹ', hint: '힌트 없다 요놈아' },
-	{ title: '라라랜드', consonants: 'ㄹㄹㄹㄷ', hint: '힌트 없다 요놈아' },
-	{ title: '다크나이트', consonants: 'ㄷㅋㄴㅇㅌ', hint: '힌트 없다 요놈아' },
-	{
-		title: '가디언즈 오브 갤럭시',
-		consonants: 'ㄱㄷㅇㅈ ㅇㅂ ㄱㄹㅅ',
-		hint: '힌트 없다 요놈아',
-	},
-	{
-		title: '포레스트 검프',
-		consonants: 'ㅍㄹㅅㅌ ㄱㅍ',
-		hint: '힌트 없다 요놈아',
-	},
-	{ title: '라이언 킹', consonants: 'ㄹㅇㅇ ㅋ', hint: '힌트 없다 요놈아' },
-	{ title: '반지의 제왕', consonants: 'ㅂㅈㅇ ㅈㅇ', hint: '힌트 없다 요놈아' },
-	{ title: '셜록 홈즈', consonants: 'ㅅㄹ ㅎㅈ', hint: '힌트 없다 요놈아' },
-	{ title: '인셉션', consonants: 'ㅇㅅㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '스타워즈', consonants: 'ㅅㅌㅇㅈ', hint: '힌트 없다 요놈아' },
-	{ title: '터미네이터', consonants: 'ㅌㅁㄴㅇㅌ', hint: '힌트 없다 요놈아' },
-	{ title: '아이언맨', consonants: 'ㅇㅇㅇㅁ', hint: '힌트 없다 요놈아' },
-	{ title: '겨울왕국', consonants: 'ㄱㅇㅇㄱ', hint: '힌트 없다 요놈아' },
-	{ title: '트랜스포머', consonants: 'ㅌㄹㅅㅍㅁ', hint: '힌트 없다 요놈아' },
-	{ title: '알라딘', consonants: 'ㅇㄹㄷ', hint: '힌트 없다 요놈아' },
-	{ title: '조커', consonants: 'ㅈㅋ', hint: '힌트 없다 요놈아' },
-	{ title: '킹스맨', consonants: 'ㅋㅅㅁ', hint: '힌트 없다 요놈아' },
-	{ title: '라푼젤', consonants: 'ㄹㅍㅈ', hint: '힌트 없다 요놈아' },
-	{
-		title: '캡틴 아메리카',
-		consonants: 'ㅋㅌ ㅇㅁㄹㅋ',
-		hint: '힌트 없다 요놈아',
-	},
-	{ title: '아바타', consonants: 'ㅇㅂㅌ', hint: '힌트 없다 요놈아' },
-	{ title: '토이 스토리', consonants: 'ㅌㅇ ㅅㅌㄹ', hint: '힌트 없다 요놈아' },
-];
-
-// 개발 관련 용어와 초성 목록
-const devTerms = [
-	{
-		title: '자바스크립트',
-		consonants: 'ㅈㅂㅅㅋㄹㅌ',
-		hint: '힌트 없다 요놈아',
-	},
-	{ title: '파이썬', consonants: 'ㅍㅇㅆ', hint: '뱀 두마리' },
-	{ title: '깃허브', consonants: 'ㄱㅎㅂ', hint: '잔디' },
-	{ title: '리액트', consonants: 'ㄹㅇㅌ', hint: '프론트의 꽃' },
-	{ title: '노드제이에스', consonants: 'ㄴㄷㅈㅇㅇㅅ', hint: '백엔드의 꽃' },
-	{ title: '도커', consonants: 'ㄷㅋ', hint: '고래' },
-	{ title: '쿠버네티스', consonants: 'ㅋㅂㄴㅌㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '리눅스', consonants: 'ㄹㄴㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '안드로이드', consonants: 'ㅇㄷㄹㅇㄷ', hint: '힌트 없다 요놈아' },
-	{
-		title: '마이크로서비스',
-		consonants: 'ㅁㅇㅋㄹㅅㅂㅅ',
-		hint: '힌트 없다 요놈아',
-	},
-	{ title: '스프링부트', consonants: 'ㅅㅍㄹㅂㅌ', hint: '힌트 없다 요놈아' },
-	{ title: '엑스코드', consonants: 'ㅇㅅㅋㄷ', hint: '힌트 없다 요놈아' },
-	{
-		title: '타입스크립트',
-		consonants: 'ㅌㅇㅅㅋㄹㅍㅌ',
-		hint: '힌트 없다 요놈아',
-	},
-	{
-		title: '비주얼 스튜디오 코드',
-		consonants: 'ㅂㅈㅇ ㅅㅌㄷㅇ ㅋㄷ',
-		hint: '힌트 없다 요놈아',
-	},
-	{ title: '자바', consonants: 'ㅈㅂ', hint: '힌트 없다 요놈아' },
-	{ title: '고랭', consonants: 'ㄱㄹ', hint: '힌트 없다 요놈아' },
-	{ title: '씨샵', consonants: 'ㅆㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '제이쿼리', consonants: 'ㅈㅇㅋㄹ', hint: '힌트 없다 요놈아' },
-	{ title: '데브옵스', consonants: 'ㄷㅂㅇㅅ', hint: '힌트 없다 요놈아' },
-	{ title: '컨테이너', consonants: 'ㅋㅌㅇㄴ', hint: '힌트 없다 요놈아' },
-	{ title: '스위프트', consonants: 'ㅅㅇㅍㅌ', hint: '힌트 없다 요놈아' },
-	{ title: '스칼라', consonants: 'ㅅㅋㄹ', hint: '힌트 없다 요놈아' },
-	{ title: '플러터', consonants: 'ㅍㄹㅌ', hint: '힌트 없다 요놈아' },
-	{ title: '머신러닝', consonants: 'ㅁㅅㄹㄴ', hint: '힌트 없다 요놈아' },
-	{
-		title: '데이터베이스',
-		consonants: 'ㄷㅇㅌㅂㅇㅅ',
-		hint: '힌트 없다 요놈아',
-	},
-	{
-		title: '엘라스틱서치',
-		consonants: 'ㅇㄹㅅㅌㅅㅊ',
-		hint: '힌트 없다 요놈아',
-	},
-	{ title: '몽고디비', consonants: 'ㅁㄱㄷㅂ', hint: '힌트 없다 요놈아' },
-	{ title: '그래프큐엘', consonants: 'ㄱㄹㅍㅋㅇ', hint: '힌트 없다 요놈아' },
-	{ title: '앵귤러', consonants: 'ㅇㄱㄹ', hint: '힌트 없다 요놈아' },
-	{ title: '뷰제이에스', consonants: 'ㅂㅈㅇㅇㅅ', hint: '힌트 없다 요놈아' },
-];
-
 let selectedTerms = [];
 let currentIndex = 0;
 let scoreTeamA = 0;
@@ -111,7 +7,7 @@ let scoreTeamB = 0;
 let timer;
 const limitedTime = 15;
 let timeLeft = limitedTime;
-let isPaused = false; // 일시정지 상태를 나타내는 변수
+let isPaused = false;
 
 // HTML 요소
 const consonantsElem = document.getElementById('consonants');
@@ -140,7 +36,7 @@ const resultModal = document.getElementById('result-modal');
 const modalTitle = document.getElementById('modal-title');
 const modalMessage = document.getElementById('modal-message');
 const closeModalButton = document.getElementById('close-modal');
-const pauseButton = document.getElementById('pause-button'); // 일시정지 버튼
+const pauseButton = document.getElementById('pause-button');
 
 // 힌트 문장을 표시할 요소
 const hintContainer = document.getElementById('hint-container');
@@ -160,32 +56,41 @@ startGameButton.addEventListener('click', () => {
 	const selectedType = document.querySelector(
 		'input[name="questionType"]:checked'
 	).value;
-	let terms = selectedType === 'movies' ? movies : devTerms;
+	let jsonFileName =
+		selectedType === 'movies' ? './data/movies.json' : './data/devTerms.json';
 
-	if (movieCount > 0 && movieCount <= terms.length) {
-		currentIndex = 0;
-		shuffleArray(terms);
-		selectedTerms = terms.slice(0, movieCount);
-		settingsContainer.classList.add('hidden');
-		scoreBoard.classList.remove('hidden');
-		gameContainer.classList.remove('hidden');
-		showAnswerButton.classList.remove('hidden');
-		initScore(); // 점수 초기화
-		startGame();
-	} else {
-		alert(`문제 개수는 1에서 ${terms.length} 사이로 설정해주세요.`);
-	}
+	fetch(jsonFileName)
+		.then((response) => response.json())
+		.then((data) => {
+			let terms = data;
+			if (movieCount > 0 && movieCount <= terms.length) {
+				currentIndex = 0;
+				shuffleArray(terms);
+				selectedTerms = terms.slice(0, movieCount);
+				settingsContainer.classList.add('hidden');
+				scoreBoard.classList.remove('hidden');
+				gameContainer.classList.remove('hidden');
+				initScore();
+				startGame();
+			} else {
+				alert(`문제 개수는 1에서 ${terms.length} 사이로 설정해주세요.`);
+			}
+		})
+		.catch((error) => {
+			console.error('JSON 데이터 로드 중 오류 발생:', error);
+			alert('데이터를 불러오는 중 오류가 발생했습니다.');
+		});
 });
 
 function startGame() {
-	isPaused = false; // 일시정지 상태 초기화
-	pauseButton.textContent = '일시정지'; // 버튼 텍스트 초기화
-	pauseButton.classList.remove('hidden'); // 일시정지 버튼 표시
+	isPaused = false;
+	pauseButton.textContent = '일시정지';
+	pauseButton.classList.remove('hidden');
 
 	showTerm(selectedTerms[currentIndex]);
 	startTimer();
 	updateProgress();
-	hintContainer.classList.add('hidden'); // 힌트 숨김
+	hintContainer.classList.add('hidden');
 	showAnswerButton.classList.remove('hidden');
 }
 
@@ -217,7 +122,7 @@ function startTimer() {
 			updateTimerSec();
 
 			if (timeLeft === 7) {
-				showHint(); // 힌트 문장 표시
+				showHint();
 			}
 
 			if (timeLeft <= 0) {
@@ -225,9 +130,6 @@ function startTimer() {
 				timeLeft = 0;
 				updateTimerBar();
 				updateTimerSec();
-				// if (showAnswerButton.classList.contains('hidden')) {
-				// 	showAnswerButton.classList.remove('hidden');
-				// }
 				pauseButton.classList.add('hidden');
 			}
 		}
@@ -292,11 +194,12 @@ function showAnswer() {
 	showAnswerButton.classList.add('hidden');
 	pauseButton.classList.add('hidden');
 	clearInterval(timer);
+
 	addScoreTeamAButton.classList.remove('hidden');
 	subtractScoreTeamAButton.classList.remove('hidden');
 	addScoreTeamBButton.classList.remove('hidden');
 	subtractScoreTeamBButton.classList.remove('hidden');
-	hintContainer.classList.add('hidden'); // 힌트 숨김
+	hintContainer.classList.add('hidden');
 }
 
 // A팀 점수 추가
@@ -369,5 +272,3 @@ pauseButton.addEventListener('click', () => {
 		pauseButton.textContent = '일시정지';
 	}
 });
-
-/*	*/
