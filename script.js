@@ -84,14 +84,14 @@ startGameButton.addEventListener('click', () => {
 
 function startGame() {
 	isPaused = false;
-	pauseButton.textContent = '일시정지';
+	pauseButton.textContent = '일시 정지';
 	pauseButton.classList.remove('hidden');
 
 	showTerm(selectedTerms[currentIndex]);
 	startTimer();
 	updateProgress();
-	hintContainer.classList.add('hidden');
-	showAnswerButton.classList.remove('hidden');
+	hideHint();
+	// showAnswerButton.classList.remove('hidden');
 }
 
 function showTerm(term) {
@@ -121,7 +121,7 @@ function startTimer() {
 			updateTimerBar();
 			updateTimerSec();
 
-			if (timeLeft === 7) {
+			if (timeLeft === 5) {
 				showHint();
 			}
 
@@ -141,10 +141,20 @@ function showHint() {
 	const currentTerm = selectedTerms[currentIndex];
 	if (currentTerm.hint && currentTerm.hint.trim() != '') {
 		hintTextElem.textContent = currentTerm.hint;
-		hintContainer.classList.remove('hidden');
+		hintTextElem.classList.add('visible');
+		hintContainer.classList.add('visible');
 	} else {
-		hintContainer.classList.add('hidden');
+		hintTextElem.textContent = '';
+		hintTextElem.classList.remove('visible');
+		hintContainer.classList.remove('visible');
 	}
+}
+
+// 힌트 초기화 함수
+function hideHint() {
+	hintTextElem.textContent = '';
+	hintTextElem.classList.remove('visible');
+	hintContainer.classList.remove('visible');
 }
 
 // Progress Bar 업데이트
@@ -199,7 +209,7 @@ function showAnswer() {
 	subtractScoreTeamAButton.classList.remove('hidden');
 	addScoreTeamBButton.classList.remove('hidden');
 	subtractScoreTeamBButton.classList.remove('hidden');
-	hintContainer.classList.add('hidden');
+	hideHint();
 }
 
 // A팀 점수 추가
@@ -269,6 +279,6 @@ pauseButton.addEventListener('click', () => {
 	if (isPaused) {
 		pauseButton.textContent = '재개';
 	} else {
-		pauseButton.textContent = '일시정지';
+		pauseButton.textContent = '일시 정지';
 	}
 });
