@@ -2,79 +2,151 @@
   {
     "title": "자바스크립트",
     "consonants": "ㅈㅂㅅㅋㄹㅌ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "웹의 기초"
   },
-  { "title": "파이썬", "consonants": "ㅍㅇㅆ", "hint": "뱀 두마리" },
-  { "title": "깃허브", "consonants": "ㄱㅎㅂ", "hint": "잔디" },
-  { "title": "리액트", "consonants": "ㄹㅇㅌ", "hint": "프론트의 꽃" },
+  {
+    "title": "파이썬",
+    "consonants": "ㅍㅇㅆ",
+    "hint": "뱀 두마리"
+  },
+  {
+    "title": "깃허브",
+    "consonants": "ㄱㅎㅂ",
+    "hint": "잔디"
+  },
+  {
+    "title": "리액트",
+    "consonants": "ㄹㅇㅌ",
+    "hint": "페이스북이 만든 컴포넌트의 예술가"
+  },
   {
     "title": "노드제이에스",
     "consonants": "ㄴㄷㅈㅇㅇㅅ",
-    "hint": "백엔드의 꽃"
+    "hint": "자바스크립트에게 날개를 달아준 영웅"
   },
-  { "title": "도커", "consonants": "ㄷㅋ", "hint": "고래" },
+  {
+    "title": "도커",
+    "consonants": "ㄷㅋ",
+    "hint": "고래"
+  },
   {
     "title": "쿠버네티스",
     "consonants": "ㅋㅂㄴㅌㅅ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "컨테이너 플랫폼"
   },
-  { "title": "리눅스", "consonants": "ㄹㄴㅅ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "리눅스",
+    "consonants": "ㄹㄴㅅ",
+    "hint": "펭귄"
+  },
   {
     "title": "안드로이드",
     "consonants": "ㅇㄷㄹㅇㄷ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "녹색 로봇"
   },
   {
     "title": "마이크로서비스",
     "consonants": "ㅁㅇㅋㄹㅅㅂㅅ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "API를 통해 통신"
   },
   {
     "title": "스프링부트",
     "consonants": "ㅅㅍㄹㅂㅌ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "자바 개발자의 친구"
   },
-  { "title": "엑스코드", "consonants": "ㅇㅅㅋㄷ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "엑스코드",
+    "consonants": "ㅇㅅㅋㄷ",
+    "hint": "애플 개발의 필수품"
+  },
   {
     "title": "타입스크립트",
     "consonants": "ㅌㅇㅅㅋㄹㅍㅌ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "any 쓰면 혼남"
   },
   {
     "title": "비주얼 스튜디오 코드",
     "consonants": "ㅂㅈㅇ ㅅㅌㄷㅇ ㅋㄷ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "VS 인텔리제이"
   },
-  { "title": "자바", "consonants": "ㅈㅂ", "hint": "힌트 없다 요놈아" },
-  { "title": "고랭", "consonants": "ㄱㄹ", "hint": "힌트 없다 요놈아" },
-  { "title": "씨샵", "consonants": "ㅆㅅ", "hint": "힌트 없다 요놈아" },
-  { "title": "제이쿼리", "consonants": "ㅈㅇㅋㄹ", "hint": "힌트 없다 요놈아" },
-  { "title": "데브옵스", "consonants": "ㄷㅂㅇㅅ", "hint": "힌트 없다 요놈아" },
-  { "title": "컨테이너", "consonants": "ㅋㅌㅇㄴ", "hint": "힌트 없다 요놈아" },
-  { "title": "스위프트", "consonants": "ㅅㅇㅍㅌ", "hint": "힌트 없다 요놈아" },
-  { "title": "스칼라", "consonants": "ㅅㅋㄹ", "hint": "힌트 없다 요놈아" },
-  { "title": "플러터", "consonants": "ㅍㄹㅌ", "hint": "힌트 없다 요놈아" },
-  { "title": "머신러닝", "consonants": "ㅁㅅㄹㄴ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "자바",
+    "consonants": "ㅈㅂ",
+    "hint": "커피 한잔"
+  },
+  {
+    "title": "고랭",
+    "consonants": "ㄱㄹ",
+    "hint": "마스코트가 귀여움"
+  },
+  {
+    "title": "씨샵",
+    "consonants": "ㅆㅅ",
+    "hint": "C++++"
+  },
+  {
+    "title": "제이쿼리",
+    "consonants": "ㅈㅇㅋㄹ",
+    "hint": "이거 아직도 업데이트를 하네?"
+  },
+  {
+    "title": "데브옵스",
+    "consonants": "ㄷㅂㅇㅅ",
+    "hint": "개발과 운영의 만남"
+  },
+  {
+    "title": "컨테이너",
+    "consonants": "ㅋㅌㅇㄴ",
+    "hint": "도커의 기본"
+  },
+  {
+    "title": "스위프트",
+    "consonants": "ㅅㅇㅍㅌ",
+    "hint": "재빠른 애플"
+  },
+  {
+    "title": "스칼라",
+    "consonants": "ㅅㅋㄹ",
+    "hint": "JVM 친구"
+  },
+  {
+    "title": "플러터",
+    "consonants": "ㅍㄹㅌ",
+    "hint": "하늘색 크로스 "
+  },
+  {
+    "title": "머신러닝",
+    "consonants": "ㅁㅅㄹㄴ",
+    "hint": "AI야 달려 "
+  },
   {
     "title": "데이터베이스",
     "consonants": "ㄷㅇㅌㅂㅇㅅ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "00 손해보험"
   },
   {
     "title": "엘라스틱서치",
     "consonants": "ㅇㄹㅅㅌㅅㅊ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "로그 탐색"
   },
-  { "title": "몽고디비", "consonants": "ㅁㄱㄷㅂ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "몽고디비",
+    "consonants": "ㅁㄱㄷㅂ",
+    "hint": "NoSQL"
+  },
   {
     "title": "그래프큐엘",
     "consonants": "ㄱㄹㅍㅋㅇ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "REST 적수 (쿼리언어)"
   },
-  { "title": "앵귤러", "consonants": "ㅇㄱㄹ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "앵귤러",
+    "consonants": "ㅇㄱㄹ",
+    "hint": "프론트 삼대장"
+  },
   {
     "title": "뷰제이에스",
     "consonants": "ㅂㅈㅇㅇㅅ",
-    "hint": "힌트 없다 요놈아"
+    "hint": "프론트 창문"
   }
 ]

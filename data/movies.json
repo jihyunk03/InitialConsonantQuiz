@@ -1,13 +1,29 @@
 [
-  { "title": "기생충", "consonants": "ㄱㅅㅊ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "기생충",
+    "consonants": "ㄱㅅㅊ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "인터스텔라",
     "consonants": "ㅇㅌㅅㅌㄹ",
     "hint": "힌트 없다 요놈아"
   },
-  { "title": "어벤져스", "consonants": "ㅇㅂㅈㅅ", "hint": "힌트 없다 요놈아" },
-  { "title": "타이타닉", "consonants": "ㅌㅇㅌㄴ", "hint": "힌트 없다 요놈아" },
-  { "title": "매드맥스", "consonants": "ㅁㄷㅁㅅ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "어벤져스",
+    "consonants": "ㅇㅂㅈㅅ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "타이타닉",
+    "consonants": "ㅌㅇㅌㄴ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "매드맥스",
+    "consonants": "ㅁㄷㅁㅅ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "왕의 남자",
     "consonants": "ㅇㅇ ㄴㅈ",
@@ -18,10 +34,26 @@
     "consonants": "ㅅㄱ ㅎㄲ",
     "hint": "힌트 없다 요놈아"
   },
-  { "title": "괴물", "consonants": "ㄱㅁ", "hint": "힌트 없다 요놈아" },
-  { "title": "암살", "consonants": "ㅇㅅ", "hint": "힌트 없다 요놈아" },
-  { "title": "명량", "consonants": "ㅁㄹ", "hint": "힌트 없다 요놈아" },
-  { "title": "라라랜드", "consonants": "ㄹㄹㄹㄷ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "괴물",
+    "consonants": "ㄱㅁ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "암살",
+    "consonants": "ㅇㅅ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "명량",
+    "consonants": "ㅁㄹ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "라라랜드",
+    "consonants": "ㄹㄹㄹㄷ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "다크나이트",
     "consonants": "ㄷㅋㄴㅇㅌ",
@@ -52,30 +84,66 @@
     "consonants": "ㅅㄹ ㅎㅈ",
     "hint": "힌트 없다 요놈아"
   },
-  { "title": "인셉션", "consonants": "ㅇㅅㅅ", "hint": "힌트 없다 요놈아" },
-  { "title": "스타워즈", "consonants": "ㅅㅌㅇㅈ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "인셉션",
+    "consonants": "ㅇㅅㅅ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "스타워즈",
+    "consonants": "ㅅㅌㅇㅈ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "터미네이터",
     "consonants": "ㅌㅁㄴㅇㅌ",
     "hint": "힌트 없다 요놈아"
   },
-  { "title": "아이언맨", "consonants": "ㅇㅇㅇㅁ", "hint": "힌트 없다 요놈아" },
-  { "title": "겨울왕국", "consonants": "ㄱㅇㅇㄱ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "아이언맨",
+    "consonants": "ㅇㅇㅇㅁ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "겨울왕국",
+    "consonants": "ㄱㅇㅇㄱ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "트랜스포머",
     "consonants": "ㅌㄹㅅㅍㅁ",
     "hint": "힌트 없다 요놈아"
   },
-  { "title": "알라딘", "consonants": "ㅇㄹㄷ", "hint": "힌트 없다 요놈아" },
-  { "title": "조커", "consonants": "ㅈㅋ", "hint": "힌트 없다 요놈아" },
-  { "title": "킹스맨", "consonants": "ㅋㅅㅁ", "hint": "힌트 없다 요놈아" },
-  { "title": "라푼젤", "consonants": "ㄹㅍㅈ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "알라딘",
+    "consonants": "ㅇㄹㄷ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "조커",
+    "consonants": "ㅈㅋ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "킹스맨",
+    "consonants": "ㅋㅅㅁ",
+    "hint": "힌트 없다 요놈아"
+  },
+  {
+    "title": "라푼젤",
+    "consonants": "ㄹㅍㅈ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "캡틴 아메리카",
     "consonants": "ㅋㅌ ㅇㅁㄹㅋ",
     "hint": "힌트 없다 요놈아"
   },
-  { "title": "아바타", "consonants": "ㅇㅂㅌ", "hint": "힌트 없다 요놈아" },
+  {
+    "title": "아바타",
+    "consonants": "ㅇㅂㅌ",
+    "hint": "힌트 없다 요놈아"
+  },
   {
     "title": "토이 스토리",
     "consonants": "ㅌㅇ ㅅㅌㄹ",
